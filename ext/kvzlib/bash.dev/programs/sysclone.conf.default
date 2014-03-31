@@ -1,0 +1,22 @@
+# MySQL credentials of source server.
+# note: when this is localhost, /etc/mysql/debian.cnf will be used if possible
+DB_USER_SOURCE="root"
+DB_PASS_SOURCE="xxxxxxxx"
+
+# MySQL credentials of destination server.
+# note: when this is localhost, /etc/mysql/debian.cnf will be used if possible
+DB_USER_DEST="root"
+DB_PASS_DEST="xxxxxxxx"
+
+# Remove files at destination that don't exist on source
+# EXTREMELY DANGEROUS!!!
+CLEANSE=0
+
+# What to clone
+DO_SOURCES="0"
+DO_PACKAGES="0"
+DO_PEARPKG="0"
+DO_ACCOUNTS="0"
+DO_CONFIG="0"
+DO_DATABASE="0"
+DO_DIRS="0"
